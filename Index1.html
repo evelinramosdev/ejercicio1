@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Pagina Copia</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            height: auto;
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            display: inline-block;
+            background-color: rgb(3, 151, 171);
+            width: 100%;
+            padding: 35px;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        /* CONTENIDO PRINCIPAL */
+        
+        .container {
+            display: grid;
+            grid-template-columns: 300px 1fr 300px;
+            background-color: #ffffff;
+            padding-bottom: 200px;
+            height:500px;
+        }
+        .container .box1 h1 {
+            text-align: start;
+            cursor: pointer;
+            margin: 25px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+        .container .box1 {
+            grid-column: 2 / 3;
+            text-align: center;
+        }
+        .box1 h2 {
+            margin-top: 20px;
+        }
+        
+        .container .box1 p{
+            text-align: justify;
+            line-height: 22px;
+            margin: 25px;
+            color: rgb(10, 10, 10);
+        }
+
+        /* PIE DE PAGINA */
+        footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            height: 100px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pagina Web</h1>
+    </header>
+
+    <div class="container">
+        <div class="box1">             
+
+            <h1>PAGINA WEB</h1>
+
+            <p class="p1">Te explicamos qué es una página Web y para qué 
+            sirve este documento digital. Además, los tipos
+            que existen y qué es un navegador Web.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sapiente
+            aliquid quaerat! Omnis debitis molestiae voluptatibus atque porro obcaecati
+            consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis 
+            sapiente aliquid quaerat! Omnis debitis molestiae voluptatibus atque porro obcaecati consequatur!</p>
+
+            <p>Una página web es un documento digital que se encuentra en la World Wide 
+            Web y es accesible a través de un navegador web. Puede ser utilizada para
+            proporcionar información, promocionar productos o servicios, entretener, facilitar
+             la comunicación y realizar transacciones en línea. Las páginas web son una herramienta
+            versátil que permite mostrar contenido, interactuar con los usuarios y cumplir diferentes 
+            funciones en el entorno digital.</p>
+            
+        </div>
+    </div>
+    
+    <div style="text-align: start;">Realizado con mucho ❤️ por Evelin Ramos</div>
+    
+    
+
+    <footer>
+        <p>&copy; 2023 Nombre de tu empresa. Todos los derechos reservados.</p>
+        <p>Dirección de tu empresa | Ciudad, Estado, Código Postal | Teléfono: (123) 456-7890</p>
+        <p>Sitio web: www.tuempresa.com | Correo electrónico: info@tuempresa.com</p>
+      </footer>
+
+</body>
+</html>
